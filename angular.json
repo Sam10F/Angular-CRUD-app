@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "actividades1"
+  "defaultProject": "actividades1",
+  "cli": {
+    "analytics": false
+  }
 }

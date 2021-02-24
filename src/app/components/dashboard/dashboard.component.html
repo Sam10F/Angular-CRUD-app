@@ -1,0 +1,9 @@
+<h3>Top Heroes</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let activity of activities" class="col-1-4" routerLink="/activity-detail/{{activity.id}}">
+    <div class="module activity">
+      <h4>{{activity.title}}</h4>
+    </div>
+  </a>
+</div>
+<app-activity-search></app-activity-search>
